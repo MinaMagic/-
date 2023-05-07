@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>学成在线首页</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- header部分 -->
+    <div class="header w">
+        <div class="logo"></div>
+        <div class="nav">
+            <ul>
+                <li><a href="#">首页</a></li>
+                <li><a href="#">课程</a></li>
+                <li><a href="#">职业规划</a></li>
+            </ul>
+        </div>
+        <div class="search">
+            <input type="text" name="search" value="请输入关键词"><button></button>
+        </div>
+        <div class="user">
+            <p>qq-lilei</p>
+        </div>
+    </div>
+</body>
+</html>	
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+.w { 
+    width: 1200px;
+    margin: auto;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.header {
+    height: 42px;
+    margin-top: 30px;
+    line-height: 42px;
+}
+.logo {
+    float: left;
+    width: 195px;
+    height: 42px;
+    background-image:url("../image/logo.png");
+}
+.nav {
+    float: left; 
+    margin-left: 65px;
+    
+}
+.nav li {
+    float: left;
+    
+}
+.nav li a {
+    float: left;
+    height: 42px;
+    padding: 0 10px;
+    margin-right: 35px;
+    color: #424243;
+    font-size: 18px;
+}
+.nav li a:hover {
+    border-bottom: 1px solid #00a4ff;
+    color: #00a4ff; 
+}
+.search {
+    float: left;
+    margin-left: 90px;
+}
+.search input {
+    float: left;
+    width: 300px;
+    height: 40px;
+    padding: 0 18px;
+    border: 1px solid #00a4ff;
+    font-size: 14px;
+}
+.search button {
+    float: left;
+    width: 50px;
+    height: 42px;
+    border: #00a4ff;
+    background: #00a4ff url("../image/search.png") no-repeat center;
+}
+.user {
+    float: left;
+    margin-left: 32px;
+    background: url("../image/user.png") no-repeat left;
+}
+.user p {
+    margin-left: 35px;
+    font-size: 14px;
+    color: #666666;
+}
